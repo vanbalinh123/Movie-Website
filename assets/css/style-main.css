@@ -229,6 +229,7 @@ html {
     display: flex;
     height: auto;
     width: 100%;
+    position: relative;
 }
 
 .app-content-left {
@@ -603,6 +604,9 @@ html {
     border-radius: 50%;
 }
 
+
+
+/* linh */
 /* page-product */
 .page-product {
     position: fixed;
@@ -1331,3 +1335,4 @@ html {
     opacity: 0.6;
     cursor: pointer;
 }
+

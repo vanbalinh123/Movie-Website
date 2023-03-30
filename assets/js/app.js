@@ -342,7 +342,7 @@ nation: 'American',
     {
         id: 25,
         movieName: 'Bizarre temple 2',
-        tv: 'tv',
+        home: 'tv',
         nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
@@ -356,7 +356,7 @@ nation: 'American',
     {
         id: 26,
         movieName: 'Black Adam',
-        tv: 'tv',
+        home: 'tv',
         nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
@@ -374,7 +374,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '230',
-        tv: 'tv',
+        home: 'tv',
         category: 'Science Fiction',
         author: 'Colin Trevorrow',
         actor: 'Chris Pratt, Bryce Dallas Howard, Vincent D Onofrio, Jake Johnson, Nick Robinson, Ty Simpkins, B. D. Wong, Irrfan Khan, Omar Sy, Judy Greer',
@@ -388,7 +388,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '240',
-        tv: 'tv',
+        home: 'tv',
         category: 'Science Fiction',
         author: 'Daniel Espinosa',
         actor: 'Jared Leto, Ryan Gosling, Matt Smith, Adria Arjona, Jared Harris, Roksana Węgiel, Al Madrigal, Tyrese Gibson',
@@ -398,7 +398,7 @@ nation: 'American',
     {
         id: 29,
         movieName: 'Peninsula',
-        tv: 'tv',
+        home: 'tv',
         nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
@@ -412,7 +412,7 @@ nation: 'American',
     {
         id: 30,
         movieName: 'Shang-Chi and the Legend of the Ten Rings',
-        tv: 'tv',
+        home: 'tv',
         nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
@@ -430,7 +430,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '244',
-        tv: 'tv',
+        home: 'tv',
         category: 'Action comedy',
         author: 'David Leitch',
         actor: 'Brad Pitt, Joey King, Aaron Taylor-Johnson, Brian Tyree Henry, Andrew Koji, Hiroyuki Sanada, Michael Shannon, Bad Bunny, Sandra Bullock',
@@ -445,7 +445,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '255',
-        tv: 'tv',
+        home: 'tv',
         author: 'Cate Shortland',
         actor: 'Scarlett Johansson, Florence Pugh, Cảng David, OT Fagbenle, Olga Kurylenko, William Hurt, Ray Winstone, Rachel Weisz',
         img: 'https://metiz.vn/media/poster_film/131313.jpg',
@@ -562,7 +562,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '118',
-        upcoming: 'upcoming',
+        home: 'upcoming',
         category: 'Science Fiction',
         author: 'Tommy Wirkola',
         actor: 'David Harbour, John Leguizamo, Alex Hassell, Alexis Louder, Beverly D Angelo',
@@ -572,7 +572,7 @@ nation: 'American',
     {
         id: 42,
         movieName: 'Shotgun Wedding',
-	    upcoming: 'upcoming',
+	    home: 'upcoming',
         nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
@@ -586,7 +586,7 @@ nation: 'American',
     {
         id: 43,
         movieName: 'Cirkus',
-	    upcoming: 'upcoming',
+	    home: 'upcoming',
         nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
@@ -604,7 +604,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '188',
-	upcoming: 'upcoming',
+        home: 'upcoming',
         category: 'Science Fiction',
         author: 'Greg Mottola',
         actor: 'Jon Hamm, Marcia Gay Harden, Kyle MacLachlan, Roy Wood Jr., John Slattery',
@@ -618,7 +618,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '148',
-	    upcoming: 'upcoming',
+	    home: 'upcoming',
         category: 'Science Fiction',
         author: 'Craig Gillespie',
         actor: 'Emma Stone, Emma Thompson, Joel Fry, Paul Walter Hauser, Emily Beecham, Kirby Howell-Baptiste, Mark Strong',
@@ -628,7 +628,7 @@ nation: 'American',
     {
         id: 46,
         movieName: 'Lyle, Lyle, Crocodile',
-	    upcoming: 'upcoming',
+	    home: 'upcoming',
         category: 'Science Fiction',
         nation: 'American',
         time: '121 minutes',
@@ -642,7 +642,7 @@ nation: 'American',
     {
         id: 47,
         movieName: 'We are the Millers',
-	    upcoming: 'upcoming',
+	    home: 'upcoming',
         category: 'Science Fiction',
         nation: 'American',
         time: '121 minutes',
@@ -656,7 +656,7 @@ nation: 'American',
     {
         id: 48,
         movieName: 'The Sleepover',
-	    upcoming: 'upcoming',
+	    home: 'upcoming',
         nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
@@ -670,7 +670,7 @@ nation: 'American',
     {
         id: 49,
         movieName: 'The Gray Man',
-	    movie: 'movie',
+	    home: 'movie',
         category: 'Science Fiction',
         nation: 'American',
         time: '121 minutes',
@@ -688,7 +688,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '315',
-        movie: 'movie',
+        home: 'movie',
         category: 'Science Fiction',
         author: 'Chris McKay',
         actor: 'Chris Pratt, Yvonne Strahovski, J. K. Simmons, Betty Gilpin, Sam Richardson, Edwin Hodge',
@@ -702,7 +702,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '318',
-        movie: 'movie',
+        home: 'movie',
         category: 'Science Fiction',
         author: 'Chloé Zhao',
         actor: 'Gemma Chan, Richard Madden, Kumail Nanjiani, Lia McHugh, Brian Tyree Henry, Lauren Ridloff, Barry Keoghan, Don Lee, Kit Harington, Salma Hayek, Angelina Jolie',
@@ -716,7 +716,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '100',
-        movie: 'movie',
+        home: 'movie',
         category: 'Science Fiction',
         author: 'Zack Snyder',
         actor: 'Dave Bautista, Ella Purnell, Omari Hardwick, Ana de la Reguera, Theo Rossi, Matthias Schweighöfer, Nora Arnezeder, Hiroyuki Sanada, Tig Notaro, Raúl Castillo, Huma Qureshi, Garret Dillahunt',
@@ -730,7 +730,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '181',
-        movie: 'movie',
+        home: 'movie',
         category: 'Science Fiction',
         author: 'Adam McKay',
         actor: 'Will Ferrell, Mark Wahlberg, Eva Mendes, Michael Keaton, Steve Coogan, Ray Stevenson, Samuel L. Jackson, Dwayne Johnson',
@@ -744,7 +744,7 @@ nation: 'American',
         time: '121 minutes',
         resolution: 'Full HD',
         view: '101',
-        movie: 'movie',
+        home: 'movie',
         category: 'Science Fiction',
         author: 'Ilya Naishuller',
         actor: 'Bob Odenkirk, Connie Nielsen, RZA, Christopher Lloyd',
@@ -754,7 +754,7 @@ nation: 'American',
     {
         id: 55,
         movieName: 'Doctor Strange in the Multiverse of Madness',
-        movie: 'movie',
+        home: 'movie',
         category: 'Science Fiction',
         nation: 'American',
         time: '121 minutes',
@@ -768,7 +768,7 @@ nation: 'American',
     {
         id: 56,
         movieName: 'Venom: Let There Be Carnage',
-        movie: 'movie',
+        home: 'movie',
         category: 'Science Fiction',
         nation: 'American',
         time: '121 minutes',
@@ -893,19 +893,12 @@ nation: 'American',
     },
 ]
 
-// Convert array to JSON string
-const saveMovieInfo = JSON.stringify(movieInfo);
+localStorage.setItem('movieList',JSON.stringify(movieInfo));
 
-// Save JSON string to localStorage with key is "movie-info"
-localStorage.setItem("movie-info", saveMovieInfo);
-
-// Get JSON string from localStorage with key as "movie-info"
-const getMovieInfo = localStorage.getItem("movie-info");
-
-// Convert JSON string to array
-const showMovieInfo = JSON.parse(getMovieInfo);
-
-// console.log(showMovieInfo);
+const logoNode = document.querySelector('.logo');
+logoNode.addEventListener('click', () => {
+    window.location = `index.html`;
+})
 
 
 for (let i = 0; i < boxHeadingBtn.length; i++) {
@@ -1030,7 +1023,6 @@ fantasyBtn.addEventListener('click', () => {
 
 homeBtn.addEventListener('click', () => {
     appEl.scrollIntoView({ behavior: 'smooth' })
-    console.log('Clicked')
 })
 
 signOutEL.addEventListener('click', function () {
@@ -1064,32 +1056,16 @@ let chooseProduct = {
     category: '',
 }
 
-let arrayHome = [];
-let arrayMovies = [];
-let arrayTv = [];
-let arrayUpcoming = [];
-let arrayCartoon = [];
-let arrayComedy = [];
-let arrayAction = [];
-let arrayFantasy = [];
-
-
 movieInfo.map((item) => {
     if(item.home === 'home') {
         const homeNode = document.querySelector('.trending-movie-list');
         const imgHome = document.createElement('div');
         imgHome.classList.add('img-trending');
         homeNode.appendChild(imgHome);
-        // imgHome.classList.add(`${item.id}`)
         imgHome.innerHTML = `
         <img src="${item.img}">
-    `;
-        arrayHome.push(item);
+        `;
         imgHome.addEventListener('click', () => {
-            const contentNode = document.querySelector('.content');
-            contentNode.style.visibility = 'hidden';
-            const pageProductNode = document.querySelector('.page-product');
-            pageProductNode.style.visibility = 'visible';
             const id = item.id;
             const movieName = item.movieName;
             const nation = item.nation;
@@ -1113,352 +1089,121 @@ movieInfo.map((item) => {
             chooseProduct.description = description;
             chooseProduct.category = category;
             localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
-            object = JSON.parse(localStorage.getItem('chooseProduct'));
-            
-            pageProductNode.innerHTML = `
-            <div class="content-page-product">
-            <div class="info-film">
-                <div class="img-info">
-                    <div class="img-film">
-                        <img src="${object.img}">
-                        <div class="watch-now">
-                            <div class="shadow-watch-now"></div>
-                            <div class="click-watch-now">
-                                <div class="watch">Watch now</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-details">
-                        <h3>${object.movieName}</h3>
-                        <div class="info-details-film">
-                            <div class="item-details">
-                                <div class="weight">Director:</div>
-                                <div>${object.author}</div>
-                            </div>
-                            <div class="item-details">
-                                <div class="weight">Nation:</div>
-                                <div>${object.nation}</div>
-                            </div>
-                            <div class="item-details">
-                                <div class="weight">Year of manufacture:</div>
-                                <div>2019</div>
-                            </div>
-                            <div class="item-details">
-                                <div class="weight">Performer:</div>
-                                <div>${object.actor}</div>
-                            </div>
-                            <div class="item-details">
-                                <div class="weight">Time:</div>
-                                <div>${object.time}</div>
-                            </div>
-                            <div class="item-details">
-                                <div class="weight">Resolution:</div>
-                                <div>${object.resolution}</div>
-                            </div>
-                            <div class="item-details">
-                                <div class="weight">Category:</div>
-                                <div>${object.category}</div>
-                            </div>
-                            <div class="item-details">
-                                <div class="weight">View:</div>
-                                <div>${object.view}</div>
-                            </div>
-                            <div class="description">
-                                <div class="weight">Describe:</div>
-                                <div>${object.description}</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="comment-div">
-                <h2>Comment:</h2>
-                <div class="input-user-comment">
-                    <div class="img-user">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABIFBMVEX///9rgJv/zrVPYHQAAADo6OgAvNXTqpYCq8JieZbm6u1BVWvh5Of/0Lbp6+xNXnFRXHD/1btecYkAutRfd5T/y7HkuKHRpY8Ap8BnfJZUZnvx8fFndIVido9abINSY3icnJzyxKzWs6Lw6+re3t7BwcF4eHgTExNdXV3Pz8+IiIilpaVMTEwfGRa4uLhPQDjEnovjy7//28n/7eSaoqzfz8jCx81vfIvX3eSGk6KRoLOCk6q3wc10iKGlsMG4vMLW8fZ31OQ0jKKaqLonJyc7OzsyMjJvb29RUVFfX19BNC5xW1Cjg3QsIx7Hx8eWeWuFbF9fTUMdDQD/49Xm0MW+zs3C3OF8xtOp1NtIuMpuwdCs5e7w/P3a9PdYzN655/AVtPAEAAAKsElEQVR4nO2cfVvbthqH4zjGhJCkgTQhMQ2koaXQF9K1S1kLtFu7rStwKGecdqw9Z9//WxzJL4ktPZJlyyD5unT/1SVg685P0iPJYZWKwWAwGAwGg8FgMBgMBoPBYDAYDIY8eM4OpqW6HTeB82D74ZPdWsTux/1njuo2FYfz+NHTGsCHh/9S3bQicLZ/heyiLPd3VDdQkr1HHL2AR3uqGynBHi++BR/LOiKd9Pwi9lW3NRePhf0QH0o4HMUDDHisusEZ8X7LKFirPVTd5kzsfcgsiCZV1a0Wx3mSww/xRHXDRck0xST4qLrpYuznFqzVflfdeBG2JQRrtW3VzU9nT0qwVtN/CfdB0nDXU22QwjNJQf2HYs46EUfvPaMnL1irqZbg4hRhuK3agkchGWq9Bpep9hFaL2x2ChD8TbUElyIi3FYtwSX7ppDmD9USXBbtvMxtuKtagseiVrgd91NeRdUWPOar7mmn2mxODzKJzU/FdT5ajAxPO1VEs+OeCvud9saRos67iwdhG8fNajVwHJ+dC+idn407zc40/C+d16XhxuKiU41odjq9C/6IPDjrdfxf6IQ/p/OSJjQcV+MgyfH0MzwmLy/caqcTJR6GuK1ag0NgeNqpkiDLZm969vn08uDT+fn5p4PL04upO27O7YKfCgx1PuEPDKdNyhA3v4l8kFGzWY3+Rf5I57P2hg+ATgqoMt8JuqnOZ99+tTinO6kozXIYfs5v2LksheGZRIZnuhvu4Aa6zHGWbtjT3dBfeffyG1Y7TzU39HdP+f2Q4anm1QIbfso/DMOBqLXhLriiyWDY03zVVvlVairFPNV75V35XWoqRXTQCv2Zagse+6lrtjTDC713wJVtmTUbBi9Ntf5mzTO5iQYZjms1rR8gPqidSQ3DKp5qVEtwmUqtaDCdg3+/UG3B4Wq6K5kg2gVf3letwcF1L+WGIV7VnPYnqj2YTPoufIKRxdA9c5+rFmFy1XflqqHP1HVVizC57xZh6Lr6dtN+UYY/qjZhgIah2yvEUNeB+AIbSs80Y9fVdqopxLCKDXWtiNhQbu+E6WlsiMehKyvY7GncSyuFGKJr9K9Um7BA9VC+XLg618OrIsqFxsOwglfe0pPpWOcIg9lUThBNNNrWex+89pYKsen2Ne6jmKu+5EDUXRAVRbmBONa2UMSQEbyr8xnNnB9kFFU3XogXd/ML/qC68WLkNyxHJ5XppndVN12Q/N20JJ00/2xalk5aqfyZN0TVDRcnn+HdP1W3W5x8c01Z5hlMvrmmNPMMJs/zmfLMM5g8IZYqwkol+wajXBHmCbFkEWYfiWWaSAMyhlimWhiRsSaqbm4eMoVYsmkmIMuBzVjXZ6I8vH6GA35tn/rymPSFD4ebPX2fxXBAhoL9tDnW+GkTh4nwE+Gxxk/uefjPS4WO+F2dn4ly8J95iyi65TZMV/R/Sv+nFQCt54Eidyz63y3Bz0Qdrb82C+I4c0URQad0ii1nocjqqU3/myWhoKPz36gDeH6b54o9wHHuFwqWS9EL2zxXRI74z2QXVMeR31ywTIrevM0LRWy5YPFiTNApz/8h2nFgRYiYYHlmm3ibndaPXMWEYFkUk23mKxKC5VBskY1mK/YpwTLMNh7daJYiJKi/4s4e0GhYERbc0/ov1yqzzcYrIERQsX+f6s8I71Vjc6Zag8Xqy3ajbTdmUMNpRViwNWvY6CovV1XLAMxeNRo2og2GSCnCgijCNr5Io/FKsyC9l3bDbxpuHRgioQiPQT/CgHbDfqlR5Tj8KWoYbtsmGGJCkSHoeJvtxYUaPx2qFvPxZq/r9ZEdgxFiTJHRRWMR+ozq9dczxUF6R2+69YFlDeMNY4U4V2QJJiO07aFlDerdN0fKJL0Z0rN8EoYoRFggVGQKOskIsSEGSSpJ8hB1Tisi0TAUIksBK7IFW8kIbXt+fdRdb3lMekfH3YG1gGhZ4y3DASs+Zwk6b5MR2u3YHQbd41vsrd7JoG7FGRCG7BCdyX9Y79ARtgeJu9QHJ7fj6J10k36WdY9oGjvEyZeNrxPBCO32PeI+9e5tOB7VST/LWiMN25sMwcPlZaYiGaHdXqPuVK8f3bDfoUX7WdbIJmm8Bfvp6jJi4y9IsUVFiAoicK+6daNzzvsucE+yWHBG4rLPxhdAkRqF9rxcEHTf35jfyjEUIGKLahsc4vVyCK0IRWhvwberH6/cjOAhw48sh0GII8pw8vdGZLi8ShmO6AhjBZF0vJGeegT3UAsXC6B1VIiTrwtBShGMsE2Ui3hPvYEJhy2IFNe2aMmhxxFcvk4aetRQbre31piCN6HIEwwkh4RkMsTJXwnB5Y3r+FAkI2y3hzy9m1CcpQj6rCWDGMYNvyQFkeLfMcUW8Zt0IQQUCz0FWBERtIiyEQ9xcr1MsvGFFSFcJGjFImfUY7F7Jldv7eEipMp3yvA6drQ6TP4iuVpjcFyc4AmzTiQh6uIiRHSNf4huuvFufnpMTaSMOkhSPylKULSPUsvT4UKwUvlKRliZPwEgJ1JgQQpSWD99nTKthQxskjDE4Crf1pdirP/sv8iqhYJ3fF2M4KFghPT6Owgx3PD8nDBcWqrMFellLbjmBugWs7YRjZCxsIl2dEtLkGGFsZy5zRBXBKcZIAkcYiT4nRBc/x4pwr8odtN6ESPxSMyQ2ueHIUaXeUd00vX/hm9AEQpXjEI2xIK1EEwCTfzRZb6Rhv+Eb8C/JxpiATVRtFTAGS5CJCea9W/B63CEwlW/gIIh2EmZIdrhdZZIw6BcSEZYRDcVnEnhuXQR4ndCcGnpf/7rrAiF7yo/m4pGCNZDTDASyYkGReq/DhyAYATrIaIuK+gJDkMrJURyokGK+GXZCNFAlD1BZR/O0PBCJCeasCBKRyh/ZDPLYMgLkfRDhu+KiNCqy26ERTdOPuB5me1Pp1SEfkGEf7ydIUL5LdRJho+Tega1CJGaaPxywYowyy0HsobCxcKH2iFGIdITDTZkRCi4OwwNZcvFmyx3A8+G/RDpiQYVREaEzHNgmDe3a8gI8Q7th7hTQITyhvx194Dqw3Aqd34BBH+BDakI6ZskkF17869+j1ofMxbgUIiMCOlL8hfhA0lD/pJmje5RcA0HQmRESJ+zATeJ05UTTFm0jejKxQqRWpeKRgjdJGEot2xrpRgCmxx4F0WFyIgQumCKodw3/Ff5hkNgZmeEaCdDXId/CNr4puwVu3Lf1Ew5SdyCVpBCIYpHOGjzj8AlTxRTthbgZ85YgCdCZEUIfGCoT3DbILm54BsO4PIsEKJ4hHgRwS1Zkob8zRNKC5oFGCHGplPWRAqpjFI2U5LbJ/45FOpA4BiBt8KxEBkRgpPmVsq5m+RZFN8QdSBwp5MWYpYI0Y6Mv1KVNORvgEesVqWEmCVC/GlxC6LkFpi/AR6xTm7pB23xEBkRwhPKvTRDyS3we67hkPXBM84zwhDhCBlnF7g7cEv+QO5LYPwtvs2+OydEVoTwhYbst0JDuU1+uiHj7vBW2A+RESFjOuHcoxBD7hbfH22sYyNmiNkiDA63uJ+z3Cafa+ivsVnFihlitgi59yjC8LhbZzNqYEaMdxswG4zXc90D05U7xljhsurDfVOYPLcIkTI0GAwGg8FgMBgMBoPBYDAYDAaDoTT8H5+darupIhTDAAAAAElFTkSuQmCC">
-                    </div>
-                    <div class="comment">
-                        <input type="text" placeholder="Your comment...">
-                        <div class="save-cmt">
-                            <button>Save</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="output-user-comment">
-                    <div class="img-user">
-                        <img src="data:image/png;base64,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">
-                    </div>
-                    <div class="commented">
-                        <div class="name-user">Van Ba Linh</div>
-                        <div class="time-cmt">
-                            <div class="day">25/</div>
-                            <div class="month">02/</div>
-                            <div class="year">2023</div>
-                        </div>
-                        <div class="user-cmt">
-                            Anh rat vui duoc gap em
-                        </div>
-                        <div class="fixes-delete">
-                            <div class="svg-down">
-                                <div class="svg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                                    </svg> 
-                                </div> 
-                                <div class="popup">
-                                    <div class="fixes">
-                                        <div class="icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" />
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                            </svg>                                                          
-                                        </div>
-                                        <div>Edit</div>
-                                    </div>
-                                    <div class="delete">
-                                        <div class="icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                            </svg>  
-                                        </div>
-                                        <div>Delete</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="output-user-comment">
-                    <div class="img-user">
-                        <img src="data:image/png;base64,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">
-                    </div>
-                    <div class="commented">
-                        <div class="name-user">Van Ba Linh</div>
-                        <div class="time-cmt">
-                            <div class="day">25/</div>
-                            <div class="month">02/</div>
-                            <div class="year">2023</div>
-                        </div>
-                        <div class="user-cmt">
-                            Anh rat vui duoc gap em
-                        </div>
-                        <div class="fixes-delete">
-                            <div class="svg-down">
-                                <div class="svg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                                    </svg> 
-                                </div> 
-                                <div class="popup">
-                                    <div class="fixes">
-                                        <div class="icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" />
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                            </svg>                                                          
-                                        </div>
-                                        <div>Fixes</div>
-                                    </div>
-                                    <div class="delete">
-                                        <div class="icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                            </svg>  
-                                        </div>
-                                        <div>Delete</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="output-user-comment">
-                    <div class="img-user">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABIFBMVEX///9rgJv/zrVPYHQAAADo6OgAvNXTqpYCq8JieZbm6u1BVWvh5Of/0Lbp6+xNXnFRXHD/1btecYkAutRfd5T/y7HkuKHRpY8Ap8BnfJZUZnvx8fFndIVido9abINSY3icnJzyxKzWs6Lw6+re3t7BwcF4eHgTExNdXV3Pz8+IiIilpaVMTEwfGRa4uLhPQDjEnovjy7//28n/7eSaoqzfz8jCx81vfIvX3eSGk6KRoLOCk6q3wc10iKGlsMG4vMLW8fZ31OQ0jKKaqLonJyc7OzsyMjJvb29RUVFfX19BNC5xW1Cjg3QsIx7Hx8eWeWuFbF9fTUMdDQD/49Xm0MW+zs3C3OF8xtOp1NtIuMpuwdCs5e7w/P3a9PdYzN655/AVtPAEAAAKsElEQVR4nO2cfVvbthqH4zjGhJCkgTQhMQ2koaXQF9K1S1kLtFu7rStwKGecdqw9Z9//WxzJL4ktPZJlyyD5unT/1SVg685P0iPJYZWKwWAwGAwGg8FgMBgMBoPBYDAYDIY8eM4OpqW6HTeB82D74ZPdWsTux/1njuo2FYfz+NHTGsCHh/9S3bQicLZ/heyiLPd3VDdQkr1HHL2AR3uqGynBHi++BR/LOiKd9Pwi9lW3NRePhf0QH0o4HMUDDHisusEZ8X7LKFirPVTd5kzsfcgsiCZV1a0Wx3mSww/xRHXDRck0xST4qLrpYuznFqzVflfdeBG2JQRrtW3VzU9nT0qwVtN/CfdB0nDXU22QwjNJQf2HYs46EUfvPaMnL1irqZbg4hRhuK3agkchGWq9Bpep9hFaL2x2ChD8TbUElyIi3FYtwSX7ppDmD9USXBbtvMxtuKtagseiVrgd91NeRdUWPOar7mmn2mxODzKJzU/FdT5ajAxPO1VEs+OeCvud9saRos67iwdhG8fNajVwHJ+dC+idn407zc40/C+d16XhxuKiU41odjq9C/6IPDjrdfxf6IQ/p/OSJjQcV+MgyfH0MzwmLy/caqcTJR6GuK1ag0NgeNqpkiDLZm969vn08uDT+fn5p4PL04upO27O7YKfCgx1PuEPDKdNyhA3v4l8kFGzWY3+Rf5I57P2hg+ATgqoMt8JuqnOZ99+tTinO6kozXIYfs5v2LksheGZRIZnuhvu4Aa6zHGWbtjT3dBfeffyG1Y7TzU39HdP+f2Q4anm1QIbfso/DMOBqLXhLriiyWDY03zVVvlVairFPNV75V35XWoqRXTQCv2Zagse+6lrtjTDC713wJVtmTUbBi9Ntf5mzTO5iQYZjms1rR8gPqidSQ3DKp5qVEtwmUqtaDCdg3+/UG3B4Wq6K5kg2gVf3letwcF1L+WGIV7VnPYnqj2YTPoufIKRxdA9c5+rFmFy1XflqqHP1HVVizC57xZh6Lr6dtN+UYY/qjZhgIah2yvEUNeB+AIbSs80Y9fVdqopxLCKDXWtiNhQbu+E6WlsiMehKyvY7GncSyuFGKJr9K9Um7BA9VC+XLg618OrIsqFxsOwglfe0pPpWOcIg9lUThBNNNrWex+89pYKsen2Ne6jmKu+5EDUXRAVRbmBONa2UMSQEbyr8xnNnB9kFFU3XogXd/ML/qC68WLkNyxHJ5XppndVN12Q/N20JJ00/2xalk5aqfyZN0TVDRcnn+HdP1W3W5x8c01Z5hlMvrmmNPMMJs/zmfLMM5g8IZYqwkol+wajXBHmCbFkEWYfiWWaSAMyhlimWhiRsSaqbm4eMoVYsmkmIMuBzVjXZ6I8vH6GA35tn/rymPSFD4ebPX2fxXBAhoL9tDnW+GkTh4nwE+Gxxk/uefjPS4WO+F2dn4ly8J95iyi65TZMV/R/Sv+nFQCt54Eidyz63y3Bz0Qdrb82C+I4c0URQad0ii1nocjqqU3/myWhoKPz36gDeH6b54o9wHHuFwqWS9EL2zxXRI74z2QXVMeR31ywTIrevM0LRWy5YPFiTNApz/8h2nFgRYiYYHlmm3ibndaPXMWEYFkUk23mKxKC5VBskY1mK/YpwTLMNh7daJYiJKi/4s4e0GhYERbc0/ov1yqzzcYrIERQsX+f6s8I71Vjc6Zag8Xqy3ajbTdmUMNpRViwNWvY6CovV1XLAMxeNRo2og2GSCnCgijCNr5Io/FKsyC9l3bDbxpuHRgioQiPQT/CgHbDfqlR5Tj8KWoYbtsmGGJCkSHoeJvtxYUaPx2qFvPxZq/r9ZEdgxFiTJHRRWMR+ozq9dczxUF6R2+69YFlDeMNY4U4V2QJJiO07aFlDerdN0fKJL0Z0rN8EoYoRFggVGQKOskIsSEGSSpJ8hB1Tisi0TAUIksBK7IFW8kIbXt+fdRdb3lMekfH3YG1gGhZ4y3DASs+Zwk6b5MR2u3YHQbd41vsrd7JoG7FGRCG7BCdyX9Y79ARtgeJu9QHJ7fj6J10k36WdY9oGjvEyZeNrxPBCO32PeI+9e5tOB7VST/LWiMN25sMwcPlZaYiGaHdXqPuVK8f3bDfoUX7WdbIJmm8Bfvp6jJi4y9IsUVFiAoicK+6daNzzvsucE+yWHBG4rLPxhdAkRqF9rxcEHTf35jfyjEUIGKLahsc4vVyCK0IRWhvwberH6/cjOAhw48sh0GII8pw8vdGZLi8ShmO6AhjBZF0vJGeegT3UAsXC6B1VIiTrwtBShGMsE2Ui3hPvYEJhy2IFNe2aMmhxxFcvk4aetRQbre31piCN6HIEwwkh4RkMsTJXwnB5Y3r+FAkI2y3hzy9m1CcpQj6rCWDGMYNvyQFkeLfMcUW8Zt0IQQUCz0FWBERtIiyEQ9xcr1MsvGFFSFcJGjFImfUY7F7Jldv7eEipMp3yvA6drQ6TP4iuVpjcFyc4AmzTiQh6uIiRHSNf4huuvFufnpMTaSMOkhSPylKULSPUsvT4UKwUvlKRliZPwEgJ1JgQQpSWD99nTKthQxskjDE4Crf1pdirP/sv8iqhYJ3fF2M4KFghPT6Owgx3PD8nDBcWqrMFellLbjmBugWs7YRjZCxsIl2dEtLkGGFsZy5zRBXBKcZIAkcYiT4nRBc/x4pwr8odtN6ESPxSMyQ2ueHIUaXeUd00vX/hm9AEQpXjEI2xIK1EEwCTfzRZb6Rhv+Eb8C/JxpiATVRtFTAGS5CJCea9W/B63CEwlW/gIIh2EmZIdrhdZZIw6BcSEZYRDcVnEnhuXQR4ndCcGnpf/7rrAiF7yo/m4pGCNZDTDASyYkGReq/DhyAYATrIaIuK+gJDkMrJURyokGK+GXZCNFAlD1BZR/O0PBCJCeasCBKRyh/ZDPLYMgLkfRDhu+KiNCqy26ERTdOPuB5me1Pp1SEfkGEf7ydIUL5LdRJho+Tega1CJGaaPxywYowyy0HsobCxcKH2iFGIdITDTZkRCi4OwwNZcvFmyx3A8+G/RDpiQYVREaEzHNgmDe3a8gI8Q7th7hTQITyhvx194Dqw3Aqd34BBH+BDakI6ZskkF17869+j1ofMxbgUIiMCOlL8hfhA0lD/pJmje5RcA0HQmRESJ+zATeJ05UTTFm0jejKxQqRWpeKRgjdJGEot2xrpRgCmxx4F0WFyIgQumCKodw3/Ff5hkNgZmeEaCdDXId/CNr4puwVu3Lf1Ew5SdyCVpBCIYpHOGjzj8AlTxRTthbgZ85YgCdCZEUIfGCoT3DbILm54BsO4PIsEKJ4hHgRwS1Zkob8zRNKC5oFGCHGplPWRAqpjFI2U5LbJ/45FOpA4BiBt8KxEBkRgpPmVsq5m+RZFN8QdSBwp5MWYpYI0Y6Mv1KVNORvgEesVqWEmCVC/GlxC6LkFpi/AR6xTm7pB23xEBkRwhPKvTRDyS3we67hkPXBM84zwhDhCBlnF7g7cEv+QO5LYPwtvs2+OydEVoTwhYbst0JDuU1+uiHj7vBW2A+RESFjOuHcoxBD7hbfH22sYyNmiNkiDA63uJ+z3Cafa+ivsVnFihlitgi59yjC8LhbZzNqYEaMdxswG4zXc90D05U7xljhsurDfVOYPLcIkTI0GAwGg8FgMBgMBoPBYDAYDAaDoTT8H5+darupIhTDAAAAAElFTkSuQmCC">
-                    </div>
-                    <div class="commented">
-                        <div class="name-user">Van Ba Linh</div>
-                        <div class="time-cmt">
-                            <div class="day">25/</div>
-                            <div class="month">02/</div>
-                            <div class="year">2023</div>
-                        </div>
-                        <div class="user-cmt">
-                            Anh rat vui duoc gap em
-                        </div>
-                        <div class="fixes-delete">
-                            <div class="svg-down">
-                                <div class="svg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                                    </svg> 
-                                </div> 
-                                <div class="popup">
-                                    <div class="fixes">
-                                        <div class="icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" />
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                            </svg>                                                          
-                                        </div>
-                                        <div>Fixes</div>
-                                    </div>
-                                    <div class="delete">
-                                        <div class="icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                            </svg>  
-                                        </div>
-                                        <div>Delete</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="suggest-film">
-                <h2>Suggest:</h2>
-                <div class="img-suggest">
-                    
-                </div>
-            </div>
-        </div>
 
-        <div class="top-view-movie">
-            <div class="title-trending">
-                <h2>Trending:</h2>
-            </div>
-            
-        </div>
-        `;
-            //suggest
-            movieInfo.map((item) => {
-                if(item.home === 'home') {
-                    const imgSuggestNode = document.querySelector('.img-suggest');
-                    const imgSugestFilm = document.createElement('div');
-                    imgSugestFilm.classList.add('img-suggest-film');
-                    imgSuggestNode.appendChild(imgSugestFilm);
-                    imgSugestFilm.innerHTML = `
-                    <img src="${item.img}">
-                `;
-                }
-            });
-            //trending
-            
-            movieInfo.map((item) => {
-                if(item.home === 'home') {
-                    const topViewMovieNode = document.querySelector('.top-view-movie');
-                    const filmTrendingNode = document.createElement('div');
-                    filmTrendingNode.classList.add('film-trending');
-                    topViewMovieNode.appendChild(filmTrendingNode);
-                    filmTrendingNode.innerHTML = `
-                    <div class="item-film-trending">
-                    <div class="img-film-trending">
-                        <img src="${item.img}">
-                    </div>
-                    <div class="conent-film-trending">
-                        <div class="name-film-trending">${item.movieName}</div>
-                        <div class="view-film-trending">
-                            <div class="svg-view-film-trending">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>                                              
-                            </div>
-                            <div>${item.view}</div>
-                        </div>
-                    </div>
-                    `;
-                }
-            }) 
-        })
-    }
+            window.location = `title.html`;
+        });
+    };
 
-
-
-
-
-
-
-
-
-
-
-
-    if(item.upcoming === 'upcoming') {
-        const upcomingNode = document.querySelector('.upcoming-movie-list');
-        const imgUpcoming = document.createElement('div');
-        imgUpcoming.classList.add('img-upcoming');
-        upcomingNode.appendChild(imgUpcoming);
-        imgUpcoming.innerHTML = `
-        <img src="${item.img}">
-    `;
-        arrayUpcoming.push(item);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if(item.movie === 'movie') {
+    if(item.home === 'movie') {
         const moviesNode = document.querySelector('.movies-list');
         const imgMovies = document.createElement('div');
         imgMovies.classList.add('img-movies');
         moviesNode.appendChild(imgMovies);
         imgMovies.innerHTML = `
         <img src="${item.img}">
-    `;
-        arrayMovies.push(item);
-    }
+        `;
+        imgMovies.addEventListener('click', () => {
+            const id = item.id;
+            const movieName = item.movieName;
+            const nation = item.nation;
+            const time = item.time;
+            const resolution = item.resolution;
+            const view = item.view;
+            const author = item.author;
+            const actor = item.actor;
+            const img = item.img;
+            const description = item.description;
+            const category = item.category;
+            chooseProduct.id = id;
+            chooseProduct.movieName = movieName;
+            chooseProduct.nation = nation;
+            chooseProduct.time = time;
+            chooseProduct.resolution = resolution;
+            chooseProduct.view = view;
+            chooseProduct.author = author;
+            chooseProduct.actor = actor;
+            chooseProduct.img = img;
+            chooseProduct.description = description;
+            chooseProduct.category = category;
+            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
 
+            window.location = `title.html`;
+        });
+    };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if(item.tv === 'tv') {
+    if(item.home === 'tv') {
         const tvNode = document.querySelector('.tvSeries-movie-list');
         const imgTv = document.createElement('div');
         imgTv.classList.add('img-tv');
         tvNode.appendChild(imgTv);
         imgTv.innerHTML = `
         <img src="${item.img}">
-    `;
-        arrayTv.push(item);
-    }
+        `;
+        imgTv.addEventListener('click', () => {
+            const id = item.id;
+            const movieName = item.movieName;
+            const nation = item.nation;
+            const time = item.time;
+            const resolution = item.resolution;
+            const view = item.view;
+            const author = item.author;
+            const actor = item.actor;
+            const img = item.img;
+            const description = item.description;
+            const category = item.category;
+            chooseProduct.id = id;
+            chooseProduct.movieName = movieName;
+            chooseProduct.nation = nation;
+            chooseProduct.time = time;
+            chooseProduct.resolution = resolution;
+            chooseProduct.view = view;
+            chooseProduct.author = author;
+            chooseProduct.actor = actor;
+            chooseProduct.img = img;
+            chooseProduct.description = description;
+            chooseProduct.category = category;
+            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
 
+            window.location = `title.html`;
+        });
+    };
 
+    if(item.home === 'upcoming') {
+        const upcomingNode = document.querySelector('.upcoming-movie-list');
+        const imgUpcoming = document.createElement('div');
+        imgUpcoming.classList.add('img-upcoming');
+        upcomingNode.appendChild(imgUpcoming);
+        imgUpcoming.innerHTML = `
+        <img src="${item.img}">
+        `;
+        imgUpcoming.addEventListener('click', () => {
+            const id = item.id;
+            const movieName = item.movieName;
+            const nation = item.nation;
+            const time = item.time;
+            const resolution = item.resolution;
+            const view = item.view;
+            const author = item.author;
+            const actor = item.actor;
+            const img = item.img;
+            const description = item.description;
+            const category = item.category;
+            chooseProduct.id = id;
+            chooseProduct.movieName = movieName;
+            chooseProduct.nation = nation;
+            chooseProduct.time = time;
+            chooseProduct.resolution = resolution;
+            chooseProduct.view = view;
+            chooseProduct.author = author;
+            chooseProduct.actor = actor;
+            chooseProduct.img = img;
+            chooseProduct.description = description;
+            chooseProduct.category = category;
+            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
 
-
-
-
-
-
-
-
-
-
-
+            window.location = `title.html`;
+        });
+    };
 
     if(item.category === 'Cartoon') {
         const cartoonNode = document.querySelector('.cartoon-movie-list');
@@ -1467,22 +1212,35 @@ movieInfo.map((item) => {
         cartoonNode.appendChild(imgCartoon);
         imgCartoon.innerHTML = `
         <img src="${item.img}">
-    `;
-        arrayCartoon.push(item);
-    }
-    
+        `;
+        imgCartoon.addEventListener('click', () => {
+            const id = item.id;
+            const movieName = item.movieName;
+            const nation = item.nation;
+            const time = item.time;
+            const resolution = item.resolution;
+            const view = item.view;
+            const author = item.author;
+            const actor = item.actor;
+            const img = item.img;
+            const description = item.description;
+            const category = item.category;
+            chooseProduct.id = id;
+            chooseProduct.movieName = movieName;
+            chooseProduct.nation = nation;
+            chooseProduct.time = time;
+            chooseProduct.resolution = resolution;
+            chooseProduct.view = view;
+            chooseProduct.author = author;
+            chooseProduct.actor = actor;
+            chooseProduct.img = img;
+            chooseProduct.description = description;
+            chooseProduct.category = category;
+            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
 
-
-
-
-
-
-
-
-
-
-
-
+            window.location = `title.html`;
+        });
+    };
 
     if(item.category === 'Comeny') {
         const comedyNode = document.querySelector('.comedy-movie-list');
@@ -1491,23 +1249,36 @@ movieInfo.map((item) => {
         comedyNode.appendChild(imgComedy);
         imgComedy.innerHTML = `
         <img src="${item.img}">
-    `;
-        arrayComedy.push(item);
-    } 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        `;
+        imgComedy.addEventListener('click', () => {
+            const id = item.id;
+            const movieName = item.movieName;
+            const nation = item.nation;
+            const time = item.time;
+            const resolution = item.resolution;
+            const view = item.view;
+            const author = item.author;
+            const actor = item.actor;
+            const img = item.img;
+            const description = item.description;
+            const category = item.category;
+            chooseProduct.id = id;
+            chooseProduct.movieName = movieName;
+            chooseProduct.nation = nation;
+            chooseProduct.time = time;
+            chooseProduct.resolution = resolution;
+            chooseProduct.view = view;
+            chooseProduct.author = author;
+            chooseProduct.actor = actor;
+            chooseProduct.img = img;
+            chooseProduct.description = description;
+            chooseProduct.category = category;
+            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
+
+            window.location = `title.html`;
+        });
+    };
+
     if(item.category === 'Action') {
         const actionNode = document.querySelector('.action-movie-list');
         const imgAction = document.createElement('div');
@@ -1515,22 +1286,36 @@ movieInfo.map((item) => {
         actionNode.appendChild(imgAction);
         imgAction.innerHTML = `
         <img src="${item.img}">
-    `;
-        arrayAction.push(item);
-    } 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        `;
+        imgAction.addEventListener('click', () => {
+            const id = item.id;
+            const movieName = item.movieName;
+            const nation = item.nation;
+            const time = item.time;
+            const resolution = item.resolution;
+            const view = item.view;
+            const author = item.author;
+            const actor = item.actor;
+            const img = item.img;
+            const description = item.description;
+            const category = item.category;
+            chooseProduct.id = id;
+            chooseProduct.movieName = movieName;
+            chooseProduct.nation = nation;
+            chooseProduct.time = time;
+            chooseProduct.resolution = resolution;
+            chooseProduct.view = view;
+            chooseProduct.author = author;
+            chooseProduct.actor = actor;
+            chooseProduct.img = img;
+            chooseProduct.description = description;
+            chooseProduct.category = category;
+            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
+
+            window.location = `title.html`;
+        });
+    };
+
     if(item.category === 'fantasy') {
         const fantasyNode = document.querySelector('.fantasy-movie-list');
         const imgFantasy = document.createElement('div');
@@ -1539,7 +1324,34 @@ movieInfo.map((item) => {
         fantasyNode.appendChild(imgFantasy);
         imgFantasy.innerHTML = `
         <img src="${item.img}">
-    `;
-        arrayFantasy.push(item);
-    }
+        `;
+        imgFantasy.addEventListener('click', () => {
+            const id = item.id;
+            const movieName = item.movieName;
+            const nation = item.nation;
+            const time = item.time;
+            const resolution = item.resolution;
+            const view = item.view;
+            const author = item.author;
+            const actor = item.actor;
+            const img = item.img;
+            const description = item.description;
+            const category = item.category;
+            chooseProduct.id = id;
+            chooseProduct.movieName = movieName;
+            chooseProduct.nation = nation;
+            chooseProduct.time = time;
+            chooseProduct.resolution = resolution;
+            chooseProduct.view = view;
+            chooseProduct.author = author;
+            chooseProduct.actor = actor;
+            chooseProduct.img = img;
+            chooseProduct.description = description;
+            chooseProduct.category = category;
+            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
+
+            window.location = `title.html`;
+        });
+    };
+
 });
