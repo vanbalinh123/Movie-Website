@@ -26,7 +26,7 @@ const movieDescription_6 = document.querySelector('.movie-description-6');
 const movieDescription_7 = document.querySelector('.movie-description-7');
 const movieDescription_8 = document.querySelector('.movie-description-8');
 
-const movieInfo = [
+let movieInfo = [
     {
         id: 1,
         movieName: 'Creed III',
@@ -1241,7 +1241,7 @@ movieInfo.map((item) => {
             window.location = `title.html`;
         });
     };
-
+    
     if(item.category === 'Comeny') {
         const comedyNode = document.querySelector('.comedy-movie-list');
         const imgComedy = document.createElement('div');

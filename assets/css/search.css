@@ -48,3 +48,31 @@
     gap: 5px;
     align-items: center;
 }
+
+.date-time-cmt {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.time svg {
+    width: 14px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.date svg {
+    width: 14px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}

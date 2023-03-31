@@ -13,6 +13,8 @@ inputTextNode.addEventListener('input', () => {
     formSearchNode.innerHTML = ``;
     if(results.length === 0) {
         formSearchNode.innerHTML = "No results found.";
+        // formSearchNode.style.backgroundColor = 'red';
+        // formSearchNode.style.paddingLeft = "15px";
     } else {
         results.map((item) => {
             const itemSearched = document.createElement('div');
