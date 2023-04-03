@@ -209,19 +209,25 @@ list.map(item => {
             window.location = `title.html`;
         })
     }
+})
 
-    const watchNode = document.querySelector('.click-watch-now')
-    watchNode.addEventListener('click', () => {
-    //    if(object.view === item.view) {
-    //     item.view = String(Number(item.view) + 1);
-    //     object.view = String(Number(object.view) + 1);
-    //     localStorage.setItem('movieList',JSON.stringify(list));
-    //     localStorage.setItem('chooseProduct',JSON.stringify(object));
-    //    }
-       
-    //     window.location = `title.html`;
-    window.location = `https://www.youtube.com/watch?v=hF12jIJkPZA&list=RDhF12jIJkPZA&start_radio=1`;
-    })
+const watchNowNode = document.querySelector('.watch');
+const movieBoxShadow = document.querySelector('.movie');
+const boxVideo = document.querySelector('.box-video');
+const videoMovie = document.querySelector('.video');
+watchNowNode.addEventListener('click', () => {
+    movieBoxShadow.style.visibility = 'visible';
+    boxVideo.style.visibility = 'visible';
+    videoMovie.style.visibility = 'visible';
+})
+
+boxVideo.addEventListener('click', (event) => {
+    if(event.target !== videoMovie && !videoMovie.contains(event.target)) {
+        movieBoxShadow.style.visibility = 'hidden';
+        boxVideo.style.visibility = 'hidden';
+        videoMovie.style.visibility = 'hidden';
+        videoMovie.pause();
+    }
 })
 
 //cmt
@@ -249,7 +255,6 @@ saveNode.addEventListener('click', () => {
         userCmt.date = date;
         let time = today.getHours() + "h-" + today.getMinutes() + "m-" + today.getSeconds() + "s";
         userCmt.time = time;
-        console.log(object.id)
         userCmtList.push(userCmt);
         localStorage.setItem('userCmt',JSON.stringify(userCmt));
         localStorage.setItem('userCmtList',JSON.stringify(userCmtList));
@@ -325,5 +330,4 @@ userCmtList.map(item => {
 //         window.location.reload();
 //     })
 // })
-
 

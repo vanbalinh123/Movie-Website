@@ -1120,3 +1120,35 @@ html {
     opacity: 0.6;
     cursor: pointer;
 }
+
+.movie {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: black;
+    opacity: 0.8;  
+    visibility: hidden;
+}
+
+.box-video {
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    bottom : 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+
+.video {
+    width: 1000px;
+    border-radius: 5px;
+    visibility: hidden;
+}
