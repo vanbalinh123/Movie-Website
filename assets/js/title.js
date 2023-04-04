@@ -1,11 +1,11 @@
 object = JSON.parse(localStorage.getItem('chooseProduct'));
 list = JSON.parse(localStorage.getItem('movieList'));
 const logoNode = document.querySelector('.logo');
-console.log(list)
 
 logoNode.addEventListener('click', () => {
     window.location = `index.html`;
 })
+
 
 // let isUrl = false;
 // if(!isUrl) {
@@ -41,6 +41,7 @@ pageProductNode.innerHTML = `
                             <div class="shadow-watch-now"></div>
                             <div class="click-watch-now">
                                 <div class="watch">Watch now</div>
+                                <div class="later">Watch later</div>
                             </div>
                         </div>
                     </div>
@@ -331,3 +332,12 @@ userCmtList.map(item => {
 //     })
 // })
 
+const listAdd = JSON.parse(localStorage.getItem('listAdd')) || [];
+console.log(listAdd)
+const watchLaterNode = document.querySelector('.later');
+watchLaterNode.addEventListener('click', () => {
+    listAdd.push(object);
+    localStorage.setItem('chooseProduct',JSON.stringify(object));        
+    localStorage.setItem('listAdd',JSON.stringify(listAdd));
+    window.location = `watch-later.html`;
+})

@@ -504,6 +504,7 @@ html {
 .watch-now {
     position: absolute;
     bottom: 15px;
+    /* top: 50px; */
     left: 0;
     right: 0;
     margin-left: 15px;
@@ -531,6 +532,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 7px;
 }
 
 .watch {
@@ -543,6 +545,20 @@ html {
 }
 
 .watch:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.later {
+    padding: 15px 15px;
+    background-color: #9b8e3b;
+    border-radius: 10px;
+    font-size: 15px;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.later:hover {
     cursor: pointer;
     opacity: 0.8;
 }

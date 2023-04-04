@@ -3,7 +3,6 @@ const inputTextNode = document.querySelector('.input-text');
 const formSearchNode = document.querySelector('.form-search');
 inputTextNode.addEventListener('input', () => {
     const searchText = inputTextNode.value.toLowerCase();
-    console.log(searchText)
     let results;
     if(searchText !== '') {
         results = list.filter(function(item) {
