@@ -6,6 +6,11 @@ logoNode.addEventListener('click', () => {
     window.location = `index.html`;
 })
 
+const pageWatchLaterNode = document.querySelector(".watch-later-page")
+pageWatchLaterNode.addEventListener('click', () => {
+    window.location = `watch-later.html`;
+})
+
 
 // let isUrl = false;
 // if(!isUrl) {
@@ -333,11 +338,24 @@ userCmtList.map(item => {
 // })
 
 const listAdd = JSON.parse(localStorage.getItem('listAdd')) || [];
-console.log(listAdd)
+let temp = 0;
 const watchLaterNode = document.querySelector('.later');
+
+
+
 watchLaterNode.addEventListener('click', () => {
-    listAdd.push(object);
-    localStorage.setItem('chooseProduct',JSON.stringify(object));        
-    localStorage.setItem('listAdd',JSON.stringify(listAdd));
-    window.location = `watch-later.html`;
+    listAdd.map(item => {
+        if(item.id === object.id && temp === 0) {
+            temp += 1;
+            alert(`Movie '${object.movieName}' already exists`)
+            return temp;
+        }
+    })
+    if(temp === 0) {
+        listAdd.push(object);
+        localStorage.setItem('chooseProduct',JSON.stringify(object));        
+        localStorage.setItem('listAdd',JSON.stringify(listAdd));
+        // window.location = `watch-later.html`;
+        alert(`Movie '${object.movieName}' added to WATCH LATER`)
+    }
 })

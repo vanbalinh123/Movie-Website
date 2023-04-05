@@ -392,6 +392,7 @@ html {
 .page-watch-later {
     width: 100%;
     background-color: #333;
+    min-height: 700px;
     border-top-left-radius: 20px;
     margin-left: 210px;
 }
@@ -455,11 +456,12 @@ html {
 .info-details-film {
     display: flex;
     flex-direction: column;
-    /* gap: 5px; */
+    gap: 10px;
 }
 
 .weight {
     font-weight: bold;
+    color:aquamarine;
 }
 
 .watch-now {

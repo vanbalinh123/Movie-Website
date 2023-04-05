@@ -17,6 +17,12 @@ logoNode.addEventListener('click', () => {
     window.location = `index.html`;
 })
 
+const pageWatchLaterNode = document.querySelector(".watch-later-page")
+pageWatchLaterNode.addEventListener('click', () => {
+    window.location = `watch-later.html`;
+})
+
+
 
 object = JSON.parse(localStorage.getItem('chooseProduct'));
 listAdd = JSON.parse(localStorage.getItem('listAdd'));

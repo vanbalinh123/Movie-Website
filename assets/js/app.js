@@ -1056,6 +1056,11 @@ let chooseProduct = {
     category: '',
 }
 
+const pageWatchLaterNode = document.querySelector(".watch-later-page")
+pageWatchLaterNode.addEventListener('click', () => {
+    window.location = `watch-later.html`;
+})
+
 movieInfo.map((item) => {
     if(item.home === 'home') {
         const homeNode = document.querySelector('.trending-movie-list');
