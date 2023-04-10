@@ -18,6 +18,11 @@ html {
     background-color: rgb(22, 22, 22);
 }
 
+.app-container::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -410,6 +415,11 @@ html {
     /* visibility: hidden; */
 }
 
+.page-product::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+
 .hidden {
     visibility: hidden;
 }
@@ -478,6 +488,11 @@ html {
     padding: 10px;
     background-color: #353a3a;
     border-radius: 20px;
+}
+
+.info-details-film::-webkit-scrollbar {
+    width: 0px;
+    display: none;
 }
 
 .info-details h1 {
@@ -605,6 +620,11 @@ html {
     overflow: scroll;
     border-radius: 10px;
     border: none;
+}
+
+.comment::-webkit-scrollbar {
+    width: 0px;
+    display: none;
 }
 
 .comment .save-cmt {

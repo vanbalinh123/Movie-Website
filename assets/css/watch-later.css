@@ -17,6 +17,11 @@ html {
     background-color: rgb(22, 22, 22);
 }
 
+.app-container::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -446,6 +451,11 @@ html {
     height: 350px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.content-film::-webkit-scrollbar {
+    width: 0px;
+    display: none;
 }
 
 .item-details {
