@@ -18,6 +18,7 @@
     display: flex;
     border-bottom: 1px solid #212121;
     background-color: #cdbc4d;
+    transition: all 0.2s;
 }
 
 .img-item-searched {
@@ -75,4 +76,9 @@
     justify-content: center;
     align-items: center;
     gap: 3px;
+}
+
+.item-searched:hover {
+    cursor: pointer;
+    background-color: #f4e482;
 }

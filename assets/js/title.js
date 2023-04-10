@@ -1,7 +1,9 @@
 object = JSON.parse(localStorage.getItem('chooseProduct'));
 list = JSON.parse(localStorage.getItem('movieList'));
-const logoNode = document.querySelector('.logo');
 
+// href
+const logoNode = document.querySelector('.logo');
+window.location = `title.html#movieName:${object.movieName}?id:${object.id}`;
 logoNode.addEventListener('click', () => {
     window.location = `index.html`;
 })
@@ -11,14 +13,55 @@ pageWatchLaterNode.addEventListener('click', () => {
     window.location = `watch-later.html`;
 })
 
+upcomingBtn.addEventListener('click', () => {
+    let scrollNode = 4;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
 
-// let isUrl = false;
-// if(!isUrl) {
-//     const url = window.location.href + '?id' + object.id;
-//     console.log(url)
-//     window.location.href = url;
-//     isUrl = false;
-// }
+tvSeriesBtn.addEventListener('click', () => {
+    let scrollNode = 3;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
+
+moviesBtn.addEventListener('click', () => {
+    let scrollNode = 2;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
+
+cartoonBtn.addEventListener('click', () => {
+    let scrollNode = 5;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
+
+comedyBtn.addEventListener('click', () => {
+    let scrollNode = 6;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
+
+actionBtn.addEventListener('click', () => {
+    let scrollNode = 7;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
+
+fantasyBtn.addEventListener('click', () => {
+    let scrollNode = 8;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
+
+homeBtn.addEventListener('click', () => {
+    let scrollNode = 1;
+    localStorage.setItem('scrollNode',JSON.stringify(scrollNode));
+    window.location = 'index.html';
+})
+
+const listAdd = JSON.parse(localStorage.getItem('listAdd')) || [];
 
 let chooseProduct = {
     id: '',
@@ -32,8 +75,24 @@ let chooseProduct = {
     img: '',
     description: '',
     category: '',
+    year: '',
 }
 
+function products(item) {
+    chooseProduct.id = item.id;
+    chooseProduct.movieName = item.movieName;
+    chooseProduct.nation =  item.nation;
+    chooseProduct.time =  item.time;
+    chooseProduct.resolution =  item.resolution;
+    chooseProduct.view =  item.view;
+    chooseProduct.author =  item.author;
+    chooseProduct.actor =  item.actor;
+    chooseProduct.img =  item.img;
+    chooseProduct.description =  item.description;
+    chooseProduct.category =  item.category;
+    chooseProduct.year =  item.year;
+    localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
+}
 
 const pageProductNode = document.querySelector('.page-product');
 pageProductNode.innerHTML = `
@@ -63,7 +122,7 @@ pageProductNode.innerHTML = `
                             </div>
                             <div class="item-details">
                                 <div class="weight">Year of manufacture:</div>
-                                <div>2019</div>
+                                <div>${object.year}</div>
                             </div>
                             <div class="item-details">
                                 <div class="weight">Performer:</div>
@@ -126,60 +185,8 @@ pageProductNode.innerHTML = `
         </div>
 `;
 
-//trending
+//suggest
 list.map(item => {
-    if(item.view > 400) {
-        const topViewMovieNode = document.querySelector('.top-view-movie');
-        const filmTrendingNode = document.createElement('div');
-        filmTrendingNode.classList.add('film-trending');
-        topViewMovieNode.appendChild(filmTrendingNode);
-        filmTrendingNode.innerHTML = `
-        <div class="item-film-trending">
-        <div class="img-film-trending">
-            <img src="${item.img}">
-        </div>
-        <div class="conent-film-trending">
-            <div class="name-film-trending">${item.movieName}</div>
-            <div class="view-film-trending">
-                <div class="svg-view-film-trending">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>                                              
-                </div>
-                <div>${item.view}</div>
-            </div>
-        </div>
-        `;
-        filmTrendingNode.addEventListener('click', () => {
-            const id = item.id;
-            const movieName = item.movieName;
-            const nation = item.nation;
-            const time = item.time;
-            const resolution = item.resolution;
-            const view = item.view;
-            const author = item.author;
-            const actor = item.actor;
-            const img = item.img;
-            const description = item.description;
-            const category = item.category;
-            chooseProduct.id = id;
-            chooseProduct.movieName = movieName;
-            chooseProduct.nation = nation;
-            chooseProduct.time = time;
-            chooseProduct.resolution = resolution;
-            chooseProduct.view = view;
-            chooseProduct.author = author;
-            chooseProduct.actor = actor;
-            chooseProduct.img = img;
-            chooseProduct.description = description;
-            chooseProduct.category = category;
-            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
-             
-            window.location = `title.html`;
-        })
-    }
-
     if(item.category === object.category) {
         const imgSuggestNode = document.querySelector('.img-suggest');
         const imgSugestFilm = document.createElement('div');
@@ -189,31 +196,61 @@ list.map(item => {
             <img src="${item.img}">
             `; 
         imgSugestFilm.addEventListener('click', () => {
-            const id = item.id;
-            const movieName = item.movieName;
-            const nation = item.nation;
-            const time = item.time;
-            const resolution = item.resolution;
-            const view = item.view;
-            const author = item.author;
-            const actor = item.actor;
-            const img = item.img;
-            const description = item.description;
-            const category = item.category;
-            chooseProduct.id = id;
-            chooseProduct.movieName = movieName;
-            chooseProduct.nation = nation;
-            chooseProduct.time = time;
-            chooseProduct.resolution = resolution;
-            chooseProduct.view = view;
-            chooseProduct.author = author;
-            chooseProduct.actor = actor;
-            chooseProduct.img = img;
-            chooseProduct.description = description;
-            chooseProduct.category = category;
-            localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
-            window.location = `title.html`;
+            products(item);
+            window.location = `title.html`
         })
+    }
+})
+
+
+const sortedList = list.sort((a, b) => b.view - a.view);
+const top8Items = sortedList.slice(0, 8);
+top8Items.map(item => {
+    const topViewMovieNode = document.querySelector('.top-view-movie');
+    const filmTrendingNode = document.createElement('div');
+    filmTrendingNode.classList.add('film-trending');
+    topViewMovieNode.appendChild(filmTrendingNode);
+    filmTrendingNode.innerHTML = `
+    <div class="item-film-trending">
+    <div class="img-film-trending">
+        <img src="${item.img}">
+    </div>
+    <div class="conent-film-trending">
+        <div class="name-film-trending">${item.movieName}</div>
+        <div class="view-film-trending">
+            <div class="svg-view-film-trending">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>                                              
+            </div>
+            <div>${item.view}</div>
+        </div>
+    </div>
+    `;
+    filmTrendingNode.addEventListener('click', () => {
+        products(item);
+        window.location = `title.html`
+    })
+});
+
+
+let temp = 0;
+const watchLaterNode = document.querySelector('.later');
+watchLaterNode.addEventListener('click', () => {
+    listAdd.map(item => {
+        if(item.id === object.id && temp === 0) {
+            temp += 1;
+            alert(`Movie '${object.movieName}' already exists`)
+            return temp;
+        }
+    })
+    if(temp === 0) {
+        listAdd.push(object);
+        // localStorage.setItem('chooseProduct',JSON.stringify(object));        
+        localStorage.setItem('listAdd',JSON.stringify(listAdd));
+        // window.location = `watch-later.html`;
+        alert(`Movie '${object.movieName}' added to WATCH LATER`)
     }
 })
 
@@ -225,13 +262,32 @@ watchNowNode.addEventListener('click', () => {
     movieBoxShadow.style.visibility = 'visible';
     boxVideo.style.visibility = 'visible';
     videoMovie.style.visibility = 'visible';
+    list.map(item => {
+        if(item.id === object.id) {
+            console.log(item.view)
+            object.view = Number(item.view) + 1;
+            item.view = Number(item.view) + 1;
+            listAdd.map(itemm => {
+                if(itemm.id === object.id) {
+                    itemm.view = Number(itemm.view) + 1;
+                }
+            localStorage.setItem('listAdd',JSON.stringify(listAdd));
+            })
+        }
+        localStorage.setItem('movieList',JSON.stringify(list));
+        localStorage.setItem('chooseProduct',JSON.stringify(object));
+    })
 })
+
+// localStorage.setItem('movieList',JSON.stringify(list));
+// localStorage.setItem('chooseProduct',JSON.stringify(object));
 
 boxVideo.addEventListener('click', (event) => {
     if(event.target !== videoMovie && !videoMovie.contains(event.target)) {
         movieBoxShadow.style.visibility = 'hidden';
         boxVideo.style.visibility = 'hidden';
         videoMovie.style.visibility = 'hidden';
+        window.location.reload()
         videoMovie.pause();
     }
 })
@@ -245,7 +301,6 @@ let userCmt = {
 }
 
 const userName = document.querySelector('.user-name').innerText;
-
 const saveNode = document.querySelector('.save-cmt');
 let userCmtList = JSON.parse(localStorage.getItem('userCmtList'));
 if(userCmtList === null) userCmtList = [];
@@ -275,7 +330,6 @@ saveNode.addEventListener('click', () => {
         window.location.reload();
     }
 })
-
 userCmtList = JSON.parse(localStorage.getItem('userCmtList'));
 userCmtList.map((item,i) => {
     if(item.id === object.id) {
@@ -339,36 +393,61 @@ userCmtList.map((item,i) => {
     } 
 })
 
-let newListCmt = userCmtList.filter(tam => tam.id === object.id);
+let newListCmt = userCmtList.filter(item => item.id === object.id);
 const deleteCmtNode = document.querySelectorAll('.delete');
+const editNode = document.querySelectorAll('.fixes')
+let activeEditNode = null;
+
 newListCmt.map((item, i) => {
     deleteCmtNode.forEach(function(element, index) {
-        if(userName === item.name && i === index) {
+        if(userName === item.name && i === index) { 
             element.addEventListener('click', () => {
                 userCmtList = userCmtList.filter(temp => temp !== item)
+                alert(`Comments '${item.cmt}' will be deleted`)
                 localStorage.setItem('userCmtList',JSON.stringify(userCmtList));
-                window.location.reload()
+                element.closest('.output-user-comment').remove();
+            })
+        }
+    });
+    editNode.forEach(function(element, index) {
+        if(userName === item.name && i === index) {
+            element.addEventListener('click', () => {
+                if (activeEditNode !== null && activeEditNode !== element) {
+                    // activeEditNode.parentElement.parentElement.parentElement.parentElement.children[2].classList.remove('user-edit');
+                    activeEditNode.parentElement.parentElement.parentElement.parentElement.children[2].innerHTML = `
+                        ${activeEditNode.parentElement.parentElement.parentElement.parentElement.children[2].children[0].value}
+                    `; 
+                }
+                activeEditNode = element;         
+                const userEdit = element.parentElement.parentElement.parentElement.parentElement.children[2];
+                userEdit.classList.add('user-edit');
+                userEdit.innerHTML = `
+                    <input type="text" value="${item.cmt}" class="cmted" id="${index}"/>
+                    <div class="update-cancer-cmt">
+                        <div class="update-cmt">Update</div>
+                        <div class="cancer-update-cmt">Cancer</div>
+                    </div>
+                `
+                const updateCmtNode = document.querySelector('.update-cmt');
+                const newCmt = document.querySelector('.cmted')
+                updateCmtNode.addEventListener('click', () => {
+                    if(Number(newCmt.id) === index) {
+                        item.cmt = newCmt.value;
+                        localStorage.setItem('userCmtList',JSON.stringify(userCmtList));
+                        userEdit.innerHTML = item.cmt;
+                        activeEditNode = null;
+                    }  
+                })
+
+                const cancerUpdateCmtNode = document.querySelector('.cancer-update-cmt');
+                cancerUpdateCmtNode.addEventListener('click', () => {
+                    if(Number(newCmt.id) === index) {
+                        userEdit.innerHTML = `${item.cmt}`;
+                        activeEditNode = null;
+                    }
+                })
             })
         }
     })
 })
 
-const listAdd = JSON.parse(localStorage.getItem('listAdd')) || [];
-let temp = 0;
-const watchLaterNode = document.querySelector('.later');
-watchLaterNode.addEventListener('click', () => {
-    listAdd.map(item => {
-        if(item.id === object.id && temp === 0) {
-            temp += 1;
-            alert(`Movie '${object.movieName}' already exists`)
-            return temp;
-        }
-    })
-    if(temp === 0) {
-        listAdd.push(object);
-        localStorage.setItem('chooseProduct',JSON.stringify(object));        
-        localStorage.setItem('listAdd',JSON.stringify(listAdd));
-        // window.location = `watch-later.html`;
-        alert(`Movie '${object.movieName}' added to WATCH LATER`)
-    }
-})

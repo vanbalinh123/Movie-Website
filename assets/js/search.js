@@ -37,28 +37,18 @@ inputTextNode.addEventListener('input', () => {
             </div>
             `;
             itemSearched.addEventListener('click', () => {
-                const id = item.id;
-                const movieName = item.movieName;
-                const nation = item.nation;
-                const time = item.time;
-                const resolution = item.resolution;
-                const view = item.view;
-                const author = item.author;
-                const actor = item.actor;
-                const img = item.img;
-                const description = item.description;
-                const category = item.category;
-                chooseProduct.id = id;
-                chooseProduct.movieName = movieName;
-                chooseProduct.nation = nation;
-                chooseProduct.time = time;
-                chooseProduct.resolution = resolution;
-                chooseProduct.view = view;
-                chooseProduct.author = author;
-                chooseProduct.actor = actor;
-                chooseProduct.img = img;
-                chooseProduct.description = description;
-                chooseProduct.category = category;
+                chooseProduct.id = item.id;
+                chooseProduct.movieName = item.movieName;
+                chooseProduct.nation =  item.nation;
+                chooseProduct.time =  item.time;
+                chooseProduct.resolution =  item.resolution;
+                chooseProduct.view =  item.view;
+                chooseProduct.author =  item.author;
+                chooseProduct.actor =  item.actor;
+                chooseProduct.img =  item.img;
+                chooseProduct.description =  item.description;
+                chooseProduct.category =  item.category;
+                chooseProduct.year =  item.year;
                 localStorage.setItem('chooseProduct',JSON.stringify(chooseProduct));
                 window.location = `title.html`;
             })
